@@ -1,0 +1,93 @@
+.app-info-bar {
+  width: 25%;
+  max-width: 300px;
+  border-left: 1px solid var(--ticket-border-color);
+}
+
+.app-info-bar h2 {
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.app-info-bar h3 {
+  color: var(--algolia-blue);
+}
+
+.app-info-container {
+  padding-inline: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.algolia-app-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.algolia-perso-indicator {
+  display: flex;
+  justify-content: space-evenly;
+  color: #005e36;
+  background-color: rgba(13,229,137,0.4);
+  border-radius: 1.5rem;
+  font-weight: bold;
+  margin-inline-start: 1.25rem;
+}
+
+.algolia-org-info {
+  list-style: disc;
+  padding-inline-start: 40px;
+}
+
+.algolia-account-overview {
+  min-height: 62px;
+  gap: 0.5rem;
+  font-size: 14px;
+  align-items: center;
+}
+
+.algolia-account-overview img {
+  width: 32px;
+  aspect-ratio: 1;
+  border-radius: 4px;
+}
+
+.algolia-user-info a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #808080;
+}
+
+.algolia-user-info a:hover {
+  text-decoration: underline;
+}
+
+.algolia-user-info-list {
+  list-style: disc;
+  padding-inline-start: 40px;
+}
+
+.algolia-applications-list a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: min-content;
+}
+
+.algolia-applications-list a:hover li {
+  background-color: #b80979;
+}
+
+.algolia-applications-list li {
+  background-color: #f86e7e;
+  padding: 0 0.3rem;
+  border-radius: 4px;
+  line-height: 1.25;
+  margin: 0.2rem 0;
+}

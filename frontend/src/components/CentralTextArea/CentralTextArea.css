@@ -1,0 +1,103 @@
+.text-area-structure {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100svh - (49px + 63px));
+}
+
+
+.text-area-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+  height: auto;
+}
+.text-area-header {
+  padding: 0.75rem 1rem;
+  border-bottom: solid 1px var(--ticket-border-color)
+}
+
+.ta-header-title {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.ta-header-sla {
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.ta-header-sla-count {
+  background-color: rgb(209,232,223);
+  color: rgb(11,59,41);
+  min-width: 2rem;
+  text-align: center;
+  border-radius: 2px;
+  padding: 0 0.25rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.ta-header-web-form {
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--ticket-border-color);
+  color: var(--ticket-faded-text)
+}
+
+.text-area-reply {
+  border-top: 1px solid var(--ticket-border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area-reply * {
+  width: 100%;
+  background: transparent;
+}
+
+.text-area-reply-header {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+}
+
+.tar-header-lhs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 0;
+}
+
+.tar-header-rhs {
+  display: flex;
+  flex-grow: 0;
+  justify-content: end;
+}
+
+.text-area-reply-header select {
+  width: fit-content;
+  border: none;
+}
+
+.tar-header-recipients {
+  padding-left: 1rem;
+  border-left: 1px solid var(--ticket-border-color);
+  height: min-content;
+  color: var(--ticket-faded-text);
+}
+
+.text-area-reply textarea {
+  border: none;
+  background: transparent;
+  resize: block;
+  font-size: 0.8rem;
+  height: 12lh;
+}
+
+.support-internal {
+  background-color: var(--internal-note);
+  border: 1px solid var(--internal-note-border);
+}

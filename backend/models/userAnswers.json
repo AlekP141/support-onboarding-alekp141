@@ -1,0 +1,62 @@
+[
+ {
+  "id": 0,
+  "user": "",
+  "answers": {
+   "synonyms-1": [
+    {
+     "sender": "support",
+     "text": "asdasd"
+    }
+   ],
+   "synonyms-2": [],
+   "rules-1": []
+  }
+ },
+ {
+  "id": 1,
+  "user": "Test User",
+  "answers": {
+   "synonyms-1": [
+    {
+     "sender": "support",
+     "text": "syn-1 content"
+    },
+    {
+     "sender": "support-internal",
+     "text": "internal test"
+    }
+   ],
+   "synonyms-2": [],
+   "rules-1": []
+  }
+ },
+ {
+  "id": 2,
+  "user": "Test User 2",
+  "answers": {
+   "synonyms-1": [
+    {
+     "sender": "support",
+     "text": "syn-1 content u2"
+    }
+   ],
+   "synonyms-2": [
+    {
+     "sender": "support-internal",
+     "text": "syn-2 content note u2"
+    },
+    {
+     "sender": "support",
+     "text": "syn-2 content 2nd message u2"
+    }
+   ],
+   "rules-1": [
+    {
+     "sender": "support",
+     "text": "rules-1 content u2"
+    }
+   ]
+  }
+ }
+]

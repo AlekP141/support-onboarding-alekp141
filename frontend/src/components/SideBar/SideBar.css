@@ -1,0 +1,54 @@
+.side-bar-container  {
+  width: 25%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px var(--ticket-border-color);
+}
+.side-bar-container label {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.app-info > * {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.app-info textarea {
+  height: 3lh;
+  min-height: 0;
+  resize: none;
+  border: 1px solid var(--ticket-border-color);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+.app-involved-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid var(--ticket-border-color);
+  padding: 1rem;
+}
+
+.app-involved-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.app-involved-container > div > select {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--ticket-border-color);
+}
+

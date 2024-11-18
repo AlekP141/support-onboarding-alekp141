@@ -1,0 +1,19 @@
+@import "./App.css";
+@import "./components/Header/Header.css";
+@import "./components/Header/UserQuestionInfo/QuestionPicker.css";
+@import "./components/SideBar/SideBar.css";
+@import "./components/AppInfoBar/AppInfoBar.css";
+@import "./components/CentralTextArea/CentralTextArea.css";
+@import "./components/CentralTextArea/RenderMessage/RenderMessage.css";
+@import "./components/Footer/Footer.css";
+@import "./components/CentralTextArea/Hints/HintGenerator.css";
+
+:root {
+  --ticket-border-color: rgb(216,220,222);
+  --ticket-bg: #f8f9f9;
+  --ticket-faded-text: #68737D;
+  --text-color: rgb(47,57,65);
+  --algolia-blue: #003dff;
+  --internal-note: rgb(255, 247, 237);
+  --internal-note-border: rgb(254, 214, 168);
+}
